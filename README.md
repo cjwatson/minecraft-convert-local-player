@@ -37,7 +37,7 @@ You will need Python >= 3.6.
 2. Take a clean copy of the world from the original device.  (I used `adb
    backup` and [Android Backup
    Extractor](https://github.com/nelenkov/android-backup-extractor), but of
-   course this depends on your original device.
+   course this depends on your original device.)
 3. Upload the world to a BDS instance (renaming its directory as usual - at
    a minimum it needs to not end with the `=` character to avoid confusing
    the BDS `server.properties` parser, but it's probably least confusing to
