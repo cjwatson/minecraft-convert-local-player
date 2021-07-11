@@ -47,12 +47,12 @@ You will need Python >= 3.6.
 5. Stop the server and copy the world back out.  Make sure to put it in a
    different path from the clean copy you took in step 2, because you'll
    need to compare them.
-6. Run `compare-worlds.py <path to old world> <path to new world>`.  This
+6. Run `./compare-worlds.py <path to old world> <path to new world>`.  This
    should find a single new player and print various UUIDs associated with
    them.
 7. Take another copy of the original world from step 2, and run
-   `convert-local-player.py <path to copied world> <MSA ID> <self-signed ID>
-   <player server ID>`, using the UUIDs printed in step 6.
+   `./convert-local-player.py <path to copied world> <MSA ID>
+   <self-signed ID> <player server ID>`, using the UUIDs printed in step 6.
 8. Upload this modified copy to the BDS instance, overwriting the one you
    uploaded before, and restart the server.
 9. The original local player should now be able to connect and see their
