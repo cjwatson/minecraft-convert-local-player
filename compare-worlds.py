@@ -35,10 +35,8 @@ should print the UUIDs associated with any new players who have appeared.
 import argparse
 import os.path
 
-from bedrock import (
-    leveldb as ldb,
-    nbt,
-)
+from bedrock import leveldb as ldb
+from bedrock import nbt
 
 
 def get_players(db):

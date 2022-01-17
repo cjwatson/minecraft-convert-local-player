@@ -45,11 +45,8 @@ the local player will have lost their inventory.
 import argparse
 import os.path
 
-from bedrock import (
-    leveldb as ldb,
-    nbt,
-)
-
+from bedrock import leveldb as ldb
+from bedrock import nbt
 
 parser = argparse.ArgumentParser(
     description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter
