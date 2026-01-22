@@ -1,2 +1,14 @@
-[tool.black]
+[tool.ruff]
 line-length = 79
+
+[tool.ruff.lint]
+select = [
+    "A",        # flake8-builtins
+    "ARG",      # flake8-unused-arguments
+    "E",        # pycodestyle: Error
+    "F",        # pyflakes
+    "I",        # isort
+    "RUF",      # Ruff-specific rules
+    "UP",       # pyupgrade
+    "W",        # pycodestyle: Warning
+]
